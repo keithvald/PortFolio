@@ -1,0 +1,154 @@
+
+@font-face
+{
+	font-family: "ChopinScript";
+	src: url('../FONT/ChopinScript.ttf');
+}
+
+@font-face
+{
+	font-family: "Dianna";
+	src: url('../FONT/OPTIDiannaScript-BoldAgen.otf');
+}
+
+
+@font-face
+{
+	font-family: "Bleeding_Cowboys";
+	src: url('../FONT/Bleeding_Cowboys.ttf');
+}
+
+
+/*------------------------------------------ NAVIGATION -----------------------------------------*/
+
+body
+{
+	background: transparent;
+	font-family: "Bleeding_Cowboys";
+}
+
+
+
+/*-------------------------------------------- BLOC 1 -------------------------------------------*/
+
+
+
+.container-fluid.bloc_un
+{
+	background-image: url('../IMAGES/BACKGROUNDS/luigi.jpg'), url('../IMAGES/BACKGROUNDS/library.jpg');
+	background-color: transparent;
+	background-attachment: all;
+	background-repeat: no-repeat;
+	margin: -1.5%;
+
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+/*---------------------- NAVIGATION -----------------------*/
+
+.nav-link
+{
+	color: red;
+	font-size: 1.2rem;
+}
+
+
+/*-------------------- FIN NAVIGATION ---------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------- BIENVENUE -----------------------*/
+
+.portfolio, .bienvenue
+{
+	color: white;
+}
+
+.portfolio
+{
+	font-size: 2em;
+}
+
+hr
+{
+	background-color: red;
+	height: 1px;
+	width: 50%;
+}
+
+.bienvenue
+{
+	font-size: 5em;
+}
+/*-------------------- FIN BIENVENUE ---------------------*/
+
+
+
+
+
+/*----------------------- IMAGES -------------------------*/
+
+.img_bloc_un
+{
+	opacity: 0.5;
+}
+
+.img_bloc_un:hover
+{
+	opacity: 1;
+	-webkit-transform: scale(1.25); /* Safari et Chrome */
+	-moz-transform: scale(1.25); /* Firefox */
+	-ms-transform: scale(1.25); /* Internet Explorer 9 */
+	-o-transform: scale(1.25); /* Opera */
+	transform: scale(1.25);
+	transition-duration: 1s;
+}
+
+
+
+/*--------------------- FIN IMAGES -----------------------*/
+
+
+
+/*-------------------------------------------- BLOC 2 -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- BLOC 3 -------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- BLOC 4 -------------------------------------------*/
