@@ -43,6 +43,7 @@ function myFunctionProject() {
 
 }
 
+
 //----------------------------------------- CONTACT-------------------------------------
 
 document.querySelector('a#nav_three').addEventListener("click", myFunctionNavThree);
@@ -60,4 +61,55 @@ function myFunctionNavThree() {
 }
 
 
+
+
+
+
+
+
+
+//----------------------------------------- BUTTON HTML CSS-------------------------------------
+
+document.querySelector('button.html').addEventListener("click", myFunctionHtml);
+
+function myFunctionHtml() {
+
+  	document.querySelector("#HTML_PART_ONE").style.display = "block";
+  	document.querySelector("#HTML_PART_TWO").style.display = "block";
+  	document.querySelector("#JAVASCRIPT").style.display = "none";
+  	document.querySelector("#PHP").style.display = "none";
+
+}
+
+
+//----------------------------------------- BUTTON JAVASCRIP-------------------------------------
+
+document.querySelector('button.js').addEventListener("click", myFunctionJs);
+
+function myFunctionJs() {
+
+
+  	document.querySelector("#JAVASCRIPT").style.display = "block";
+
+  	document.querySelector("#HTML_PART_ONE").style.display = "none";
+  	document.querySelector("#HTML_PART_TWO").style.display = "none";
+  	document.querySelector("#PHP").style.display = "none";
+
+}
+
+
+//-------------------------------------------- BUTTON PHP-------------------------------------
+
+document.querySelector('button.php').addEventListener("click", myFunctionPhp);
+
+function myFunctionPhp() {
+
+	document.querySelector("#PHP").style.display = "block";
+
+  	document.querySelector("#HTML_PART_ONE").style.display = "none";
+  	document.querySelector("#HTML_PART_TWO").style.display = "none";
+  	document.querySelector("#JAVASCRIPT").style.display = "none";
+
+
+}
 
