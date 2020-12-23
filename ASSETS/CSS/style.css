@@ -13,6 +13,7 @@
 
 
 @font-face
+
 {
 	font-family: "Bleeding_Cowboys";
 	src: url('../FONT/Bleeding_Cowboys.ttf');
@@ -43,6 +44,7 @@ body
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 765px;
 	margin-top: -2%;
 
 }
@@ -120,10 +122,120 @@ hr
 
 
 
+@media screen and (max-width: 1024px)
+{
+
+	.container-fluid.bloc_un
+	{
+		height: auto;
+		margin-top: -2%;
+
+	}
+
+	.portfolio
+	{
+		font-size: 2.5em;
+	}
+
+	.bienvenue
+	{
+		font-size: 3em;
+	}
+
+	.img_bloc_un
+	{
+		opacity: 1;
+		border-radius: 6px;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
 /*-------------------------------------------- BLOC 2 -------------------------------------------*/
 
 
 
+.container-fluid.bloc_deux
+{
+	background-image: url('../IMAGES/BACKGROUNDS/library.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	height: 760px;
+}
+
+
+
+
+/*---------------------- QUISUIJE -----------------------*/
+
+.quisuije
+{
+	color: white;
+	font-size: 2em;
+}
+
+hr
+{
+	background-color: red;
+	height: 1px;
+	width: 50%;
+}
+
+/*-------------------- FIN QUISUIJE ---------------------*/
+
+
+
+
+
+
+
+
+
+
+/*---------------------- CAROUSEL -----------------------*/
+
+.carousel_fond
+{
+	background-color: rgba( 0, 0, 0, 0.5);
+}
+
+
+.carousel_presentation
+{
+	font-family: "ChopinScript";
+	font-size: 4em;
+	color: white;
+}
+
+
+.carousel-indicators li
+{
+	width: 20px;
+	height: 20px;
+	margin: -10px 7px;
+	border-radius: 100%;
+	background-color: transparent;
+	border: solid 1px white;
+	opacity: .7;
+}
+
+/*-------------------- FIN CAROUSEL ---------------------*/
+
+
+@media screen and (max-width: 1024px)
+{
+
+	.container-fluid.bloc_deux
+	{
+		height: auto;
+	}
+}
 
 
 
@@ -133,6 +245,260 @@ hr
 
 
 /*-------------------------------------------- BLOC 3 -------------------------------------------*/
+
+.container-fluid.bloc_trois
+{
+	background-image: url('../IMAGES/BACKGROUNDS/japan.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	height: 760px;
+}
+
+
+
+/*-------------------- COMPÉTENCES ----------------------*/
+
+.competences
+{
+	color: white;
+	font-size: 2em;
+}
+
+hr
+{
+	background-color: red;
+	height: 1px;
+	width: 50%;
+}
+
+/*----------------- FIN COMPÉTENCES----------------------*/
+
+
+
+
+/*--------------------- CARTES --------------------------*/
+
+.card
+{
+	background-color: transparent;
+	border: solid thick white;
+	border-radius: 10px;
+	box-shadow:  0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #f6ff00, 0 -18px 40px #f80000;
+	height: 400px;
+}
+
+.titre_carte
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+	font-size: 1.5em;
+}
+/*------------------- FIN CARTES-------------------------*/
+
+@media screen and (max-width: 1024px)
+{
+
+	.container-fluid.bloc_trois
+	{
+		height: auto;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------- BLOC 3 PROJETS------------------------------------*/
+
+.container-fluid.bloc_trois_projets
+{
+	background-image: url('../IMAGES/BACKGROUNDS/japan.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	height: 760px;
+}
+
+#PROJETS
+{
+	display: none;
+}
+
+
+/*-------------------- TITRES_PROJETS ----------------------*/
+
+.titre_projet
+{
+	color: white;
+	font-size: 2em;
+}
+
+hr
+{
+	background-color: red;
+	height: 1px;
+	width: 50%;
+}
+
+/*------------------ FIN TITRES PROJETS----------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------ BOUTONS ---------------------------*/
+.btn
+{
+	border: solid black;
+	color: black
+}
+
+/*---------------------- FIN BOUTONS -------------------------*/
+
+
+
+
+
+
+
+/*---------------------- PROJETS ---------------------------*/
+
+.img_bloc_trois
+{
+	border-radius: 10px;
+}
+
+
+.snip1504 {
+  font-family: "Bleeding_Cowboys";
+  min-width: 230px;
+  max-width: 315px;
+  width: 20%;
+  color: #000000;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.snip1504 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1504 img {
+
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1504 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.snip1504 .h3,
+.snip1504 .h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1504 .h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.snip1504 .h5 {
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1504 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1504:hover > img,
+.snip1504.hover > img {
+  opacity: 0.1;
+}
+
+.snip1504:hover .h3,
+.snip1504.hover .h3,
+.snip1504:hover .h5,
+.snip1504.hover .h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/*-------------------- FIN PROJETS--------------------------*/
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+
+	.container-fluid.bloc_trois_projets
+	{
+		height: auto;
+	}
+
+		.img_bloc_trois
+	{
+		opacity: 1;
+		border-radius: 6px;
+		width: 100%;
+	}
+
+}
+
+
 
 
 
@@ -146,3 +512,71 @@ hr
 
 
 /*-------------------------------------------- BLOC 4 -------------------------------------------*/
+
+.container-fluid.bloc_quatre
+{
+	background-image: url('../IMAGES/BACKGROUNDS/fantasy.jpg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	height: 760px;
+}
+
+
+
+
+/*-------------------- CONTACTER ----------------------*/
+
+.contact
+{
+	color: white;
+	font-size: 2em;
+}
+
+hr
+{
+	background-color: red;
+	height: 1px;
+	width: 50%;
+}
+
+/*------------------ FIN CONTACTER --------------------*/
+
+
+
+
+
+
+
+
+/*---------------------- ICON -------------------------*/
+
+.img_bloc_quatre
+{
+	opacity: 0.5;
+	border-radius: 6px;
+}
+
+.img_bloc_quatre:hover
+{
+	opacity: 1;
+	-webkit-transform: scale(1.25); /* Safari et Chrome */
+	-moz-transform: scale(1.25); /* Firefox */
+	-ms-transform: scale(1.25); /* Internet Explorer 9 */
+	-o-transform: scale(1.25); /* Opera */
+	transform: scale(1.25);
+	transition-duration: 1s;
+}
+
+/*-------------------- FIN ICON -----------------------*/
+
+@media screen and (max-width: 1024px)
+{
+
+	.container-fluid.bloc_quatre
+	{
+		height: auto;
+	}
+
+}

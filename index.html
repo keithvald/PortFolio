@@ -29,18 +29,17 @@
 
 <!--------------------------------------------------- BODY -------------------------------------------------->
 <body>
-<!---------------------------------------------- BLOC 1 ------------------------------------------>
 
-<div class="container-fluid bloc_un">
-	<div class="row">
 
 	<!-------------------------------- NAVIGATION ---------------------------------->
 
-					<nav class="navbar navbar-expand-lg">
+			<nav class="navbar fixed-top navbar-expand-lg">
 
 			<!--------LOGO--------->
 
-					<img class="nav_logo" src="ASSETS/IMAGES/ICONS/moi.jpg" width="10%" alt="logo"> 
+					<a href="index.html">
+					<img class="nav_logo" src="ASSETS/IMAGES/ICONS/moi.jpg" width="30%" alt="logo"> 
+					</a>
 
 			<!--------BOUTON--------->
 
@@ -49,18 +48,20 @@
 					   </button>
 
 			<!--------NAV--------->
+
+						<div id="navbarContent" class="collapse navbar-collapse">
 						   <ul class="navbar-nav ml-auto">
 						      <li class="nav-item active mx-4">
-						         <a class="nav-link" href="#IDENTITE">Qui suis-je ?</a>
+						         <a class="nav-link" id="nav_one" href="#IDENTITE">Qui suis-je ?</a>
 						      </li>
 						      <li class="nav-item mx-4">
-						         <a class="nav-link"  href="#COMPETENCES">Quelles sont mes compétences ?</a>
+						         <a class="nav-link" id="nav_two"  href="#COMPETENCES">Quelles sont mes compétences ?</a>
 						      </li>
 						      <li class="nav-item mx-4">
-						         <a class="nav-link" href="#CONTACT">Comment me contacter ?</a>
+						         <a class="nav-link" id="nav_three" href="#CONTACT">Comment me contacter ?</a>
 						      </li>
 						   </ul>
-
+						</div>
 					</nav>
 
 	<!----------------------------- FIN NAVIGATION --------------------------------->
@@ -68,6 +69,16 @@
 
 
 
+
+
+<!---------------------------------------------- BLOC 1 ------------------------------------------>
+	<div class="container-fluid bloc_un" id="BLOC_ONE">
+		<div class="row">
+
+
+
+			<div class="container-fluid mt-5 pt-5">
+				<div class="row">	
 
 
 	<!-------------------------------- BIENVENUE ----------------------------------->
@@ -91,26 +102,26 @@
 				<div class="row text-center">
 
 
-				<!-- IMAGES 1 -->
+				<!-- IMAGE 1 -->
 
 					<div class="col-lg-4 col-12">
 
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/DREAMHOLIDAY.png" width="60%" alt="Dream Holiday">
+							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/bloc_un/DREAMHOLIDAY.png" width="60%" alt="Dream Holiday">
 
 					</div>	
 
-				<!-- IMAGES 2 -->
+				<!-- IMAGE 2 -->
 
-					<div class="col-lg-4 col-12 p-0 m-0">
-
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/php.png" width="60%" alt="Login">
-
-					</div>	
-
-				<!-- IMAGES 3 -->
 					<div class="col-lg-4 col-12">
 
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/picollino.png" width="60%" alt="Picollino">
+							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/bloc_un/php.png" width="60%" alt="Login">
+
+					</div>	
+
+				<!-- IMAGE 3 -->
+					<div class="col-lg-4 col-12">
+
+							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/bloc_un/picollino.png" width="60%" alt="Picollino">
 
 					</div>	
 
@@ -122,27 +133,27 @@
 			<div class="container-fluid mx-5">
 				<div class="row text-center">
 
-				<!-- IMAGES 4 -->
+				<!-- IMAGE 4 -->
 
 					<div class="col-lg-4 col-12">
 
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/cv.png" width="60%" alt="CV">
+							<img class="img_bloc_un mb-5" src="ASSETS/IMAGES/PROJETS/bloc_un/cv.png" width="60%" alt="CV">
 
 					</div>	
 
-				<!-- IMAGES 5 -->
+				<!-- IMAGE 5 -->
 
 					<div class="col-lg-4 col-12">
 
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/escargot.png" width="60%" alt="Escargot">
+							<img class="img_bloc_un mb-5" src="ASSETS/IMAGES/PROJETS/bloc_un/escargot.png" width="60%" alt="Escargot">
 
 					</div>	
 
-				<!-- IMAGES 6 -->
+				<!-- IMAGE 6 -->
 
 					<div class="col-lg-4 col-12">
 
-							<img class="img_bloc_un my-5" src="ASSETS/IMAGES/PROJETS/panierfrais.png" width="60%" alt="Panier Prais">
+							<img class="img_bloc_un mb-5" src="ASSETS/IMAGES/PROJETS/bloc_un/panierfrais.png" width="60%" alt="Panier Prais">
 							
 					</div>	
 
@@ -151,8 +162,15 @@
 
 
 	<!-------------------------------- FIN IMAGES ------------------------------------>
-	</div>
-</div> <!-- FIN CONTAINER-FLUID 1 -->
+				</div>
+			</div>
+
+
+		</div> <!-- FIN ROW BLOC 1 -->
+	</div> <!-- FIN CONTAINER-FLUID BLOC 1 -->
+
+
+
 
 <!--------------------------------------------- FIN BLOC 1 ------------------------------------------>
 
@@ -166,12 +184,613 @@
 
 
 
+<!----------------------------------------------  BLOC 2 -------------------------------------------->
+
+<div class="container-fluid bloc_deux" id="IDENTITE">
+	<div class="row">
+
+
+	<!-------------------------------- QUISUIJE ----------------------------------->
+
+					<div class="container-fluid col-12 text-center pt-5 mt-5">
+						<div class="quisuije">Qui suis-je ?</div>
+						<hr>
+					</div>
+
+	<!------------------------------ FIN QUISUIJE ---------------------------------->
 
 
 
 
 
 
+
+	<!-------------------------------- CAROUSEL ------------------------------------>
+
+
+					<div class="container-fluid text-center pt-5 mt-5 mb-lg-5">
+						<div class="row">
+
+						<div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
+
+							<div class="carousel_fond">
+							  <ol class="carousel-indicators">
+							    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							  </ol>
+
+
+							  <div class="carousel-inner">
+							    <div class="carousel-item active">
+							      <div class="carousel_presentation p-5">"Je m 'appelle Anissa,<br> j'ai 20 ans !"</div>
+							    </div>
+							    <div class="carousel-item">
+							      <div class="carousel_presentation p-5">"J 'effectue en ce moment même une formation afin d'obtenir le titre professionnel "Développeuse Web et Web Mobile"."</div>
+							    </div>
+							    <div class="carousel-item">
+							      <div class="carousel_presentation p-5">"En devenir, je souhaiterais travailler dans le domaine du design."</div>
+							    </div>
+							  </div>
+							 </div>
+						</div>
+
+						</div><!-- FIN ROW CAROUSEL -->
+					</div> <!-- FIN CONTAINER-FLUID CAROUSEL -->
+
+	<!------------------------------ FIN CAROUSEL ---------------------------------->
+
+
+
+
+
+
+	</div> <!-- FIN ROW BLOC 2 -->
+</div> <!-- FIN CONTAINER-FLUID BLOC 2 -->
+<!--------------------------------------------- FIN BLOC 2 ------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------  BLOC 3 -------------------------------------------->
+
+<div class="container-fluid bloc_trois" id="COMPETENCES">
+	<div class="row">
+
+
+	<!------------------------------ COMPETENCES --------------------------------->
+
+					<div class="container-fluid col-12 text-center pt-5 mt-5">
+						<div class="competences">Quelles sont mes compétences ?</div>
+						<hr>
+					</div>
+
+	<!---------------------------- FIN COMPETENCES-------------------------------->
+
+
+
+
+
+
+	<!-------------------------------- CARTES ------------------------------------>
+
+
+					<div class="container-fluid cartes text-center mx-5 pt-5 mt-5">
+						<div class="row">
+
+					<!----------------------- CARD 1 ----------------------->
+						<div class="col-12 col-lg-4">
+
+							<a href="" id="#">
+								<div class="card">
+
+										<div class="card-body">
+									      <div class="titre_carte">Compétences</div>
+										</div>
+								</div>
+							</a>
+						</div>
+					<!----------------------- CARD 2 ----------------------->
+
+						<div class="col-12 col-lg-4">
+
+							<a href="CV/cv_Anissa_Fabre.pdf" target="_blank" download="CV.pdf" id="#">
+								<div class="card">
+										<div class="card-body">
+									      <div class="titre_carte">CV</div>
+										</div>
+								</div>
+							</a>
+						</div>
+					<!----------------------- CARD 3 ----------------------->
+
+
+						<div class="col-12 col-lg-4">
+
+							<a href="#PROJECT" id="project">
+								<div class="card">
+										<div class="card-body">
+									      <div class="titre_carte">Projets</div>
+									    </div>
+								</div>
+							</a>
+ 						</div>
+
+
+						</div><!-- FIN ROW CARTE -->
+					</div> <!-- FIN CONTAINER-FLUID CARTE -->
+
+	<!------------------------------ FIN CARTES ---------------------------------->
+
+
+
+
+
+
+	</div> <!-- FIN ROW BLOC 3 -->
+</div> <!-- FIN CONTAINER-FLUID BLOC 3 -->
+<!--------------------------------------------- FIN BLOC 3 ------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------  BLOC 3 PROGRESSBAR -------------------------------------------->
+
+<div class="container-fluid bloc_trois_progressbar" id="COMPETENCES_PROGRESSBAR">
+	<div class="row">
+
+
+	<!------------------------------ COMPETENCES --------------------------------->
+
+	<!---------------------------- FIN COMPETENCES-------------------------------->
+
+
+
+
+
+	</div> <!-- FIN ROW BLOC 3 -->
+</div> <!-- FIN CONTAINER-FLUID BLOC 3 -->
+<!---------------------------------------------- FIN BLOC 3 PROGRESSBAR ------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------  BLOC 3 PPROJETS -------------------------------------------->
+
+<div class="container-fluid bloc_trois_projets" id="PROJETS">
+	<div class="row text-center">
+
+
+
+
+	<!--------------------------- TITRES PROJETS ----------------------------->
+
+			<div class="container-fluid col-12 text-center pt-5 mt-5">
+				<div class="titre_projet">MES PROJETS</div>
+				<hr>
+			</div>
+
+	<!------------------------- FIN TITRES PROJETS---------------------------->
+
+
+
+
+	<!------------------------------ BOUTON --------------------------------->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 col-12"><button type="button" class="btn">HTML/CSS</button></div>
+					<div class="col-lg-4 col-12"><button type="button" class="btn">JAVASCRIPT</button></div>
+					<div class="col-lg-4 col-12"><button type="button" class="btn">PHP</button></div>
+				</div>
+			</div>
+	<!---------------------------- FIN BOUTON ------------------------------->
+
+
+	<!------------------------------ PROJETS --------------------------------->
+
+			<div class="container-fluid mx-0 my-5">
+				<div class="row text-center">
+
+
+				<!-- IMAGE 1 -->
+
+					<div class="col-lg-3 col-12">
+						
+						<figure class="snip1504">
+							<img class="img_bloc_trois my-1" src="ASSETS/IMAGES/PROJETS/DREAMHOLIDAY.png" alt="Dream Holiday">
+							<figcaption>
+		   						<div class="h3">Mon Dream Holiday</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+						
+					</div>	
+
+
+				<!-- IMAGE 2 -->
+
+					<div class="col-lg-3 col-12">
+						
+						<figure class="snip1504">
+							<img class="img_bloc_trois my-1" src="ASSETS/IMAGES/PROJETS/php.png" alt="Login">
+							<figcaption>
+		   						<div class="h3">Mon PHP login</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+						
+					</div>	
+
+
+
+				<!-- IMAGE 3 -->
+					<div class="col-lg-3 col-12">
+						
+						<figure class="snip1504">
+							<img class="img_bloc_trois my-1" src="ASSETS/IMAGES/PROJETS/picollino.png" alt="Picollino">
+							<figcaption>
+		   						<div class="h3">Mon Picollino</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+						
+					</div>	
+
+
+
+
+				<!-- IMAGE 3 -->
+					<div class="col-lg-3 col-12">
+
+						<figure class="snip1504">
+							<img class="img_bloc_trois mb-5" src="ASSETS/IMAGES/PROJETS/panierfrais.png" alt="Panier Prais">							
+							<figcaption>
+		   						<div class="h3">Mon Panier Frais</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+						
+					</div>	
+
+				</div> <!-- FIN ROW -->			
+			</div> <!-- FIN CONTAINER-FLUID -->
+
+
+
+
+
+
+
+			<div class="container-fluid mx-0">
+				<div class="row">
+
+				<!-- IMAGE 4 -->
+
+					<div class="col-lg-4 col-12">
+
+						<figure class="snip1504">
+							<img class="img_bloc_trois mb-1" src="ASSETS/IMAGES/PROJETS/cv.png"  alt="CV">
+							<figcaption>
+		   						<div class="h3">Mon CV</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+
+					</div>	
+
+				<!-- IMAGE 5 -->
+
+					<div class="col-lg-4 col-12">
+
+						<figure class="snip1504">
+							<img class="img_bloc_trois mb-1" src="ASSETS/IMAGES/PROJETS/escargot.png" alt="Escargot">
+							<figcaption>
+		   						<div class="h3">Mon Escargot</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+
+					</div>	
+
+
+
+				<!-- IMAGE 6 -->
+
+					<div class="col-lg-4 col-12">
+
+						<figure class="snip1504">
+							<img class="img_bloc_trois mb-1" src="ASSETS/IMAGES/PROJETS/quote.png" alt="Quote">
+							<figcaption>
+		   						<div class="h3">Mon Quote</div>
+		    					<div class="h5">Project</div>
+ 							</figcaption>
+						  	<a href="#" data-toggle="modal" data-target="#monModal"></a>
+						  	<div class="modal fade" id="monModal">
+								  		<div class="modal-dialog">
+								  			<div class="modal-content">
+								  					<div class="modal-header">
+								  						<h3 class="modal-title">Gamme 2</h3>
+								  						<button type="button" class="close" data-dismiss="modal">x</button>
+								  					</div>
+
+								  					<div class="modal-body">
+								  						<img src="ASSETS/IMAGES/furniture.jpeg" width="100%">
+															<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit<br>
+															magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii,<br>
+															quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,<br>
+															stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec<br>
+															defensi periere conplures.</p>
+								  					</div>
+								  			</div>
+								  		</div>
+								  	</div>
+						</figure>
+						
+					</div>	
+
+				</div> <!-- FIN ROW -->			
+			</div> <!-- FIN CONTAINER-FLUID -->
+
+	<!---------------------------- FIN PROJETS-------------------------------->
+
+
+
+
+
+	</div> <!-- FIN ROW BLOC 3 PROJETS -->
+</div> <!-- FIN CONTAINER-FLUID BLOC 3 PROJETS-->
+<!---------------------------------------------- FIN BLOC 3 PROJETS ------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------  BLOC 4 -------------------------------------------->
+
+<div class="container-fluid bloc_quatre" id="CONTACT">
+	<div class="row">
+
+
+	<!------------------------------ CONTACTER --------------------------------->
+
+					<div class="container-fluid col-12 text-center pt-5 mt-5">
+						<div class="contact">Comment me contacter ?</div>
+						<hr>
+					</div>
+
+	<!---------------------------- FIN CONTACTER -------------------------------->
+
+
+
+
+
+	<!-------------------------------- ICONS ------------------------------------>
+
+
+					<div class="container-fluid text-center pt-lg-5 mt-lg-5 pt-1 mt-1">
+						<div class="row">
+
+
+							<div class="container-fluid mx-5">
+								<div class="row text-center">
+
+
+								<!-- ICON 1 -->
+
+									<div class="col-lg-4 col-4">
+
+											<a href="mailto:anissafabrepro@gmail.com">
+											<img class="img_bloc_quatre my-5" src="ASSETS/IMAGES/ICONS/mail_icon.png" width="70%" alt="ICON MAIL">
+											</a>
+									</div>	
+
+								<!-- ICON 2 -->
+
+									<div class="col-lg-4 col-4">
+
+											<a href="tel:+3307 81 50 07 84">
+											<img class="img_bloc_quatre my-5" src="ASSETS/IMAGES/ICONS/tel_icon.png" width="60%" alt="ICON TEL">
+											</a>
+									</div>	
+
+								<!-- ICON 3 -->
+									<div class="col-lg-4 col-4">
+
+											<a href="">
+											<img class="img_bloc_quatre my-5" src="ASSETS/IMAGES/ICONS/linkedin.png" width="60%" alt="ICON RESEAUX">
+											</a>
+									</div>	
+
+								</div> <!-- FIN ROW -->			
+							</div> <!-- FIN CONTAINER-FLUID -->
+
+
+						</div><!-- FIN ROW CARTES -->
+					</div> <!-- FIN CONTAINER-FLUID IMAGES -->
+
+	<!------------------------------ FIN ICONS ---------------------------------->
+
+
+
+
+
+
+	</div> <!-- FIN ROW BLOC 4 -->
+</div> <!-- FIN CONTAINER-FLUID BLOC 4 -->
+<!--------------------------------------------- FIN BLOC 4 ------------------------------------------>
 
 
 
